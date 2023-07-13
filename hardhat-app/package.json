@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network mumbai"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "3.0.0",
+    "hardhat": "2.16.1"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "0.6.1",
+    "@openzeppelin/contracts": "4.9.2",
+    "dotenv": "16.3.1"
+  }
+}
